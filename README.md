@@ -1,10 +1,14 @@
-# Y
+# crud-sql-express-angular-nodejs
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
-## Development server
+## Create Dummy Database
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run create-database` to create a sample database with fake data on which CRUD will be performed. 
+
+## Run front-end and back-end server
+
+Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. Backend Express server runs on `http://localhost:9090/`.
 
 ## Code scaffolding
 
