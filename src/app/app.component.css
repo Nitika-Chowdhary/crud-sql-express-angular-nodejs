@@ -1,0 +1,61 @@
+.data-row:hover .row-buttons {
+    display: inline;
+}
+
+.row-buttons {
+    display: none;
+}
+
+span{
+    margin: 10px;
+    padding: 2px;
+}
+
+.new-user-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.loading-gif{
+    height: 100px;
+    width: auto;
+}
+
+.new-user-details {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialog-container{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(204, 204, 204, 0.71);
+}
+
+.dialog{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 25px;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0px;
+}
